@@ -1,6 +1,6 @@
-
 body {
-    background-color:FloralWhite ;
+    background-color:FloralWhite;
+}
 h1 {
     text-align:center;
 }
@@ -12,7 +12,9 @@ h1 {
     background-color:beige;
     color:dodgerblue;
 }
-    .foo {
-    text-align: center;
+div.foo p{
+    text-align:center;
 }
+p +h1 {
+    text-align: center;
 }
