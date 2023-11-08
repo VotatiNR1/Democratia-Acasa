@@ -1,16 +1,15 @@
 
 body {
-    background-color:Darkgreen ;
+    background-color:FloralWhite ;
 }
 h1 {
-    text-align: center;
+    text-align:center;
 }
 .head1 {
-    background-color:Royalblue;
-    color: white;
+    background-color:cadetblue;
+    color:white;
 }
 #head2 {
-    background-color: beige;
-    color: dodgerblue;
+    background-color:beige;
+    color:dodgerblue;
 }
-
