@@ -12,9 +12,16 @@ h1 {
     background-color:beige;
     color:dodgerblue;
 }
-div.foo p{
+.foo h1 h2 h3 h4 h5{
     text-align:center;
 }
-p +h1 {
-    text-align: center;
+
+.upper-content {
+    background-color: antiquewhite;
+}
+.footer{
+    background-color: blanchedalmond;
+}
+.foo{
+    background-color: darkolivegreen;
 }
