@@ -25,3 +25,14 @@ h1 {
 .foo{
     background-color: darkolivegreen;
 }
+div a {
+    background-color: aqua;
+    padding: 20px;
+}
+ a > h1{
+    background-color: blue;
+    color:chartreuse;
+}
+a + a{
+    background-color: whitesmoke;
+}
