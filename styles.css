@@ -33,3 +33,38 @@ div a {
 a + a{
     background-color: whitesmoke;
 }
+a:link {
+    color: blue;
+}
+
+p:hover{
+    color:darkorchid;
+    font-weight:bold;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+div:last-of-type {
+    background-color: #f2f2f2;
+}
+
+p::before {
+    content: ">> ";
+    font-weight: bold;
+ }
+p::after {
+    content: " <<";
+    font-weight: bold;
+}
+
+p::selection{
+    background-color:aliceblue;
+    color:darkorchid;
+}
+
+h1::first-letter {
+    font-size: 150%;
+    color: rgb(128, 0, 0);
+}
