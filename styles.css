@@ -23,7 +23,6 @@ h1 {
     background-color: darkolivegreen;
 }
 div a {
-    background-color: aqua;
     padding: 20px;
 }
  a > h1{
@@ -33,6 +32,7 @@ div a {
 a + a{
     background-color: whitesmoke;
 }
+
 a:link {
     color: blue;
 }
@@ -49,6 +49,7 @@ p:first-child {
 div:last-of-type {
     background-color: #f2f2f2;
 }
+
 
 p::before {
     content: ">> ";
@@ -67,4 +68,33 @@ p::selection{
 h1::first-letter {
     font-size: 150%;
     color: rgb(128, 0, 0);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.image {
+    transition: width 5s; /* Transition for width property */
+    cursor: pointer;
+}
+
+.image:hover {
+    width: 800px; /* Change the width on hover */
+}
+
+.center {
+    text-align: center;
+}
+
+.image {
+    filter: grayscale(100%);
+    filter: brightness(0.5);
+}
+
+.image-animated {
+    animation: fadeIn 1s ease-in-out;
 }
